@@ -5,9 +5,11 @@
  * (C) 2014 Midhul Varma
  */
 
+//Grey object
+var Grey;
+
 //initializing filter functions for ImageData object
-function initFilters(img) {
-	img.test = function() { console.log('working'); };
+Grey.initFilters = function(img) {
 
 	//automatically greyscale image
 	for (var x = 0; x < img.width; x++) {
