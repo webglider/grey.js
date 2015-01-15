@@ -5,6 +5,9 @@
  * (C) 2014 Midhul Varma
  */
 
+
+(function() {
+
 //Grey object
 var Grey;
 
@@ -136,11 +139,6 @@ Grey.initFilters = function(img) {
 		}
 
 	}
-
-
-
-
-
-
-
 }
+
+}).();
